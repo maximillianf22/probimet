@@ -23,7 +23,7 @@
             <img src="{{ asset('assets/img/theme/recreation.png') }}" class="img-fluid" style="max-height: 100px; min-height: 100px;max-width: 100px;max-width: 100px;">
           </div>
         </div>
-        <h4 class="text-center text-dark mt-4">Tendras acceso a un mundo de beneficios a travez de:</h4>
+        <h4 class="text-center text-dark mt-4">Tendrás acceso a un mundo de beneficios a través de:</h4>
         <div class="row mx-auto mt-3 mb-3">
           <div class="col-5 mx-auto text-right">
             <img src="{{ asset('assets/img/theme/playstore.png') }}" class="img-fluid">
