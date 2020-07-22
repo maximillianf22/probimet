@@ -18,7 +18,6 @@ use Illuminate\Support\Facades\Mail;
 
     	$validatedData = $request->validate([
 			'name' => 'required|max:255',
-			'bussiness_type' => 'required',
 			'last_name' => 'required|max:255',
 			'email' => 'required|email|max:255|unique:clients',
 			'phone' => 'required|numeric|unique:clients'
@@ -29,7 +28,6 @@ use Illuminate\Support\Facades\Mail;
 			'phone.unique' => ' ¡Este numero telefonico ya existe en nuestro sistema! ',
 			'name.required' => ' ¡El  nombre es requerido! ',
 			'email.required' => ' ¡El correo es requerido! ',
-			'bussiness_type.required' => ' ¡Seleccione el tipo de negocio! '
 		]);
 
 			$client = new Clients();
@@ -37,17 +35,15 @@ use Illuminate\Support\Facades\Mail;
 			$client->last_name = $request->name;
 			$client->email = $request->email;
 			$client->phone = intval(preg_replace('/[^0-9]+/','', $request->phone), 10);
-			$client->bussiness_type = $request->bussiness_type;
 
 			$data['name'] =  $client->name;
 	        $data['last_name'] = $client->last_name;
 	        $data['email'] = $client->email;
 	        $data['phone'] = $client->phone;
-	        $data['bussiness_type'] = $client->bussiness_type;
 
 			Mail::send('email.notificacion', ['data' => $data], function($mail) use($data){
                 $mail->subject('Registro en ventual');
-                $mail->to(['jaimeandresbarrios@gmail.com', 'developappsas@gmail.com'],'Ventual Comercios');
+                $mail->to( $data['email'], 'Probimep Ofertas');
             });
 
 		$client->save();
