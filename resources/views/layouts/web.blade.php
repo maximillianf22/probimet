@@ -31,8 +31,6 @@
 
   @yield('content')
 
-  @include('components.footer')
-
 
    <a href="https://api.whatsapp.com/send?phone=573016245760&amp;text=Hola,%20estoy%20interesado%20en%20el%20producto" class="btn_whatsapp" target="_blank">
         <i class="fab fa-whatsapp fa-3x mt-1 mb-1" aria-hidden="true"></i>

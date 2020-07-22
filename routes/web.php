@@ -19,8 +19,6 @@ Route::get('/gracias', function () {
     return view('gracias');
 });
 
-Route::post('/store', 'ClientsController@store');
-
-Route::get('/index', 'ClientsController@index')->middleware('auth');
-
-Auth::routes(['register'=> false, 'reset'=>false]);
+Route::get('/checkout', function () {
+    return view('checkout');
+});

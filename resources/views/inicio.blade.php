@@ -79,7 +79,7 @@
                     </div>
                     <div class="row">
                       <div class="col text-center">
-                        <button type="submit" class="btn btn-primary btn-sm">Registrarme</button>
+                        <a class="btn btn-primary btn-sm" href="/checkout">Registrarme</a>
                       </div>
                     </div>
                   </div>
@@ -107,9 +107,9 @@
                        </div>
                      </div>
                      <div class="col text-center mt-3 mb-4">
-                       <button class="btn btn-primary btn-lg shadow py-1 px-2">
+                       <a class="btn btn-primary btn-lg shadow py-1 px-2" href="/checkout">
                          <h3 class="text-white font-weight-bold mb-0">¡Adquiérela <strong class="text-yellow">YA!</strong></h3>
-                       </button>
+                       </a>
                      </div>
                   </div>
                  </form>
@@ -213,4 +213,7 @@
           </div>
         </div>
       </div>
+
+      @include('components.footer')
+      
       @endsection
