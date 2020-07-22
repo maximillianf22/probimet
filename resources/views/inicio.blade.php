@@ -79,7 +79,7 @@
                     </div>
                     <div class="row">
                       <div class="col text-center">
-                        <button class="btn btn-primary btn-sm">Registrarme</button>
+                        <button type="submit" class="btn btn-primary btn-sm">Registrarme</button>
                       </div>
                     </div>
                   </div>
@@ -112,14 +112,14 @@
                        </button>
                      </div>
                   </div>
-                </div>
-              </form>
+                 </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!--     *********     Logo Clientes    -->
-      <section style="background-image: url('{{asset('images/div.jpg')}}'); background-size: cover;margin-top: -15px; min-height: 30vh ;background-repeat:   no-repeat;  background-position: center center;">
+      <section style="background-image: url('{{asset('images/div.jpg')}}'); background-size: cover;margin-top: -15px; min-height: 26vh ;background-repeat:   no-repeat;  background-position: center center;">
       <div class="container-fluid">
         <div class="row our-clients">
           <div class="mx-auto">

@@ -11,6 +11,5 @@ class Clients extends Model
         'last_name',
         'email', 
         'phone',
-        'bussiness_type'
     ];
 }
