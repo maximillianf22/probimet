@@ -319,7 +319,6 @@ ul.social li{
                             <img src="images/person_2.jpg" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
                             <h3 class="name">Nombre: {{$data['name']}} {{$data['last_name']}}</h3>
                             <span class="position">Correo: {{$data['email']}} <br> Telefono: {{$data['phone']}}</span> <br> 
-                            <strong>Negocio: {{$data['bussiness_type']}}</strong>
                             <p><a href="http://ventual.co/index" class="btn btn-primary">Ir a la Web</a></p>
                         </div>
                       </td>
