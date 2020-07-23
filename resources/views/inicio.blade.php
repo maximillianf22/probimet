@@ -12,7 +12,7 @@
                 <form method="post" action="{{ url('/store') }}">
                   {!! csrf_field() !!}
                     <h3 class="card-title text-primary text-uppercase font-weight-bold text-center mb-0">Te falta poco para obtener esta</h3>
-                    <h2 class="text-center display-2 font-weight-900 bg-success text-white text-uppercase mx-5" style="border-radius: 10px;">¡Gran Oferta!</h2>
+                    <h2 class="text-center display-2 font-weight-900 bg-success text-white text-uppercase mx-5 bttn-search2" style="border-radius: 10px;">¡Gran Oferta!</h2>
                     <h5 class="text-center font-italic text-dark">
                       Protege a tu familia con la más amplia <strong class="text-primary">membresía</strong><br>
                       <strong class="text-primary">de Beneficios</strong> en salud y bienestar por el equivalente <br>
@@ -35,7 +35,7 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-6">
-                        <div class="form-group">
+                        <div class="form-group bttn-search">
                           <div class="input-group border border-primary mb-4">
                             <div class="input-group-prepend">
                               <span class="input-group-text"><i class="ni ni-circle-08"></i></span>
@@ -44,8 +44,8 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6 pl-2">
-                        <div class="form-group">
+                      <div class="col-md-6">
+                        <div class="form-group bttn-search">
                           <div class="input-group border border-primary">
                             <div class="input-group-prepend">
                               <span class="input-group-text"><i class="ni ni-collection"></i></span>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="row">
                       <div class="col-md-6">
-                        <div class="form-group">
+                        <div class="form-group bttn-search">
                           <div class="input-group border border-primary">
                             <div class="input-group-prepend">
                               <span class="input-group-text"><i class="ni ni-email-83"></i></span>
@@ -66,8 +66,8 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6 pl-2">
-                        <div class="form-group">
+                      <div class="col-md-6">
+                        <div class="form-group bttn-search">
                           <div class="input-group border border-primary">
                             <div class="input-group-prepend">
                               <span class="input-group-text"><i class="fas fa-phone"></i></span>
@@ -95,12 +95,12 @@
                       Un año de membresía para 7 personas
                     </h4>
                      <div class="row mt-4">
-                       <div class="col-6 mx-auto text-center my-auto">
+                       <div class="col-md-6 mx-auto text-center my-auto mt-2">
                          <button class="btn btn-success">
                           <del style="color: red;"><strong class="text-white">Antes: $350.000</strong></del>
                          </button>
                         </div>
-                       <div class="col-6 mx-auto text-center">
+                       <div class="col-md-6 mx-auto text-center mt-2">
                          <button class="btn btn-success btn-lg py-1 px-2" style="-webkit-box-shadow: 5px 5px 0px 1px rgba(85,143,44,1);-moz-box-shadow: 5px 5px 0px 1px rgba(85,143,44,1);box-shadow: 5px 5px 0px 1px rgba(85,143,44,1);">
                            <h3 class="text-white font-weight-bold mb-0"><strong class="text-yellow text-capitalize">Hoy: </strong>$249.000</h3>
                          </button>
@@ -125,15 +125,15 @@
           <div class="mx-auto">
             <div class="container-fluid">
               <h1 class="text-center text-uppercase pt-5 display-1 text-primary font-weight-900 d-none d-sm-none d-md-block d-lg-block"><strong>Bienvenido al mundo <strong class="text-white" style="text-shadow: -6px 1px 0px #3F8C26;">probienestar</strong></strong></h1>
-              <h2 class="text-center text-uppercase pt-5 text-primary font-weight-bold d-block d-sm-block d-md-none d-lg-none"><strong>Bienvenido al mundo <strong class="text-white" style="text-shadow: -6px 1px 0px #3F8C26;">probienestar</strong></strong></h2>
+              <h2 class="text-center text-uppercase pt-lg-5 text-primary font-weight-bold d-block d-sm-block d-md-none d-lg-none"><strong>Bienvenido al mundo <strong class="text-white" style="text-shadow: -6px 1px 0px #3F8C26;">probienestar</strong></strong></h2>
             </div>
           </div>
         </div>
         </div>
       </section>
       <!--     *********  content  -->
-      <div class="container-fluid mt-4">
-        <div class="row p-4">
+      <div class="container-fluid mt-4 p-lg-5">
+        <div class="row p-lg-4">
           <div class="col-md-6">
             <div class="row">
               <div class="col-2">

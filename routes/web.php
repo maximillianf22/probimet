@@ -22,3 +22,7 @@ Route::get('/gracias', function () {
 Route::get('/checkout', function () {
     return view('checkout');
 });
+
+Route::get('/pdf', function () {
+    return view('email.notificacion');
+});

@@ -19,6 +19,7 @@
   <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="{{ asset('assets/css/argon-design-system.min.css?v=1.0.2') }}" rel="stylesheet" />
+  <link href="{{ asset('assets/css/master.css') }}" rel="stylesheet" />
 
   <style type="text/css">
     .btn_whatsapp, btn_whatsapp:active {position: fixed;z-index: 999;bottom: 10px;right: 10px;background-color: #25d366;color: #fff;padding: 10px 25px;font-size: 13px;border-radius: 50px;font-weight: bold;}

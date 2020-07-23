@@ -133,7 +133,7 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col text-center">
+                      <div class="col-md-6 text-center">
                         <div class="form-group">
                             <select name="profile_id" class="form-control">
                                 <option value="" >Metodo de pago?</option>
@@ -143,8 +143,8 @@
                             </select>
                         </div>
                       </div>
-                      <div class="col text-center">
-                        <button type="submit" class="btn btn-primary btn-block">Continuar</button><br>
+                      <div class="col-md-6 text-center">
+                        <a href="/gracias" class="btn btn-primary btn-block">Continuar</a><br>
                       </div>
                     </div>
                       <div class="col text-center mt-0">

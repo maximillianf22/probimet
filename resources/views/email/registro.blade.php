@@ -309,13 +309,16 @@ ul.social li{
                 <tr>
                     <td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
                         <div class="text">
-                            <h2><strong>!Hola¡ Andres Snow</strong></h2> <h4> Hemos identificado que estas interesado en nosotros, te recordamos que ofrecemos los mejores beneficios para ti y tu familia sin necesidad de una EPS, si tienes alguna duda no dudes en contactarnos</h4>. <h3>att:<strong style="color: #7bb54f">PRO</strong><strong style="color: #1552a5">BIMEP</strong></h3>
+                            <h2><strong>!Bienvenido Andres Snow¡</strong> Gracias por registrarte en <strong style="color: #7bb54f">PRO</strong><strong style="color: #1552a5">BIMEP</strong></h2>
                         </div>
                     </td>
                 </tr>
                 <tr>
                       <td style="text-align: center;">
                         <div class="text-author">
+                            <img src="images/person_2.jpg" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
+                            <h3 class="name">Nombre: Andres Snow</h3>
+                            <span class="position">Correo: andres@gmaill.com <br> Telefono: 310-501-6962</span> <br> 
                             <p><a href="http://probimep.ventual.co/" class="btn btn-primary" target="_blank">Ir a la Web</a></p>
                         </div>
                       </td>
